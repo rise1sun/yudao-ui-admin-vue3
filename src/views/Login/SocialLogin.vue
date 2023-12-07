@@ -119,17 +119,17 @@
                     </el-row>
                   </el-form-item>
                 </el-col>
-                <el-col :span="24" style="padding-right: 10px; padding-left: 10px">
-                  <el-form-item>
-                    <XButton
-                      :loading="loginLoading"
-                      :title="t('login.login')"
-                      class="w-[100%]"
-                      type="primary"
-                      @click="getCode()"
-                    />
-                  </el-form-item>
-                </el-col>
+<!--                <el-col :span="24" style="padding-right: 10px; padding-left: 10px">-->
+<!--                  <el-form-item>-->
+<!--                    <XButton-->
+<!--                      :loading="loginLoading"-->
+<!--                      :title="t('login.login')"-->
+<!--                      class="w-[100%]"-->
+<!--                      type="primary"-->
+<!--                      @click="getCode()"-->
+<!--                    />-->
+<!--                  </el-form-item>-->
+<!--                </el-col>-->
                 <Verify
                   ref="verify"
                   :captchaType="captchaType"
@@ -167,7 +167,7 @@ import router from '@/router'
 defineOptions({ name: 'SocialLogin' })
 
 const { t } = useI18n()
-const route = useRoute()
+const route = useRoute?.()
 
 const appStore = useAppStore()
 const { getPrefixCls } = useDesign()
