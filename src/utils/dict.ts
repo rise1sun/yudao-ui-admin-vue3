@@ -208,8 +208,10 @@ export enum DICT_TYPE {
 
 
   // ========== WMS - TRAY 模块 ==========
-    WMS_TRAY_TYPE = "wms_tray_type", // 托盘类型
-    WMS_TRAY_STATUS = "wms_tray_status", //托盘状态
+  WMS_TRAY_TYPE = "wms_tray_type", // 托盘类型
+  WMS_TRAY_STATUS = "wms_tray_status", //托盘状态
+  //=========== WMS - AREA 模块 ==========
+  WMS_INVOKE_RECODE_STATUS = "wms_invoke_recode_status", //调用记录状态
     // ========== WMS - STORAGE 模块 ==========
 
     WMS_STORAGE_STATUS = "wms_storage_status", // 库位状态
@@ -217,10 +219,10 @@ export enum DICT_TYPE {
     WMS_STORAGE_HAS_FIRE_CHANNEL = "wms_storage_has_fire_channel", //库位是否有消防通道
     WMS_FIRE_PROCESS_STATE = "wms_fire_process_state", //消防处理状态
 
-    // ========== WMS - BARCODE 模块 ==========
-    WMS_BARCODE_STATUS = "wms_barcode_status", //条码状态
-    WMS_BARCODE_SOURCE = "wms_barcode_source", //条码来源
-    WMS_BARCODE_TYPE = "wms_barcode_type", //条码类型
+  // ========== WMS - BARCODE 模块 ==========
+  WMS_BARCODE_STATUS = "wms_barcode_status", //条码状态
+  WMS_BARCODE_SOURCE = "wms_barcode_source", //条码来源
+  WMS_BARCODE_TYPE = "wms_barcode_type", //条码类型
 
     // ========== WMS - FORMULA 模块 ==========
     WMS_FORMULA_STATUS= "wms_formula_status",
