@@ -223,13 +223,12 @@ export enum DICT_TYPE {
   WMS_BARCODE_SOURCE = "wms_barcode_source", //条码来源
   WMS_BARCODE_TYPE = "wms_barcode_type", //条码类型
 
-    // ========== WMS - PROCESS_FLOW 模块 ==========
+  // ========== WMS - PROCESS_FLOW 模块 ==========
   WMS_PROCESS_FLOW_STATUS= "wms_process_flow_status",
   WMS_PROCESS_FLOW_TYPE= "wms_process_flow_type",
   WMS_PROCESS_FLOW_ITEM_STATUS= "wms_process_flow_item_status",
 
-    // ========== WMS - BATCH 模块 ==========
-    WMS_BATCH_STATUS= "wms_batch_status",
+  WMS_MOVE_TYPE = "wms_move_type", //移库类型
 
     // ========== WMS - task 模块 ==========
     WMS_TASK_STATUS= "wms_task_status",
