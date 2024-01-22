@@ -24,7 +24,7 @@ import dayjs from 'dayjs'
 import * as DateUtil from '@/utils/formatTime'
 
 /** 快捷日期范围选择组件 */
-defineOptions({ name: 'ShortcutDateRangePicker' })
+defineOptions({ name: 'ShortcutDateRangePickerShortcutDateRangePicker' })
 
 const shortcutDays = ref(7) // 日期快捷天数（单选按钮组）, 默认7天
 const times = ref<[string, string]>(['', '']) // 时间范围参数
